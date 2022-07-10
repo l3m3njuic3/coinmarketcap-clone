@@ -1,4 +1,4 @@
-import { client } from '../../lib/client'
+// import { client } from '../../lib/client'
 
 export default getCurrentUser = async (req, res) => {
   console.log("<<<<<<<<<<<<<<<THIS IS FECTHING CURRENT USER DATA>>>>>>>>>>>>", req.query.account);

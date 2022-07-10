@@ -1,4 +1,4 @@
-import { client } from '../../lib/client'
+// import { client } from '../../lib/client'
 
 export default createUser = async (req, res) => {
   const { userAddress } = req.body
